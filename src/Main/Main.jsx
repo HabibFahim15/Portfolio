@@ -4,14 +4,13 @@ import Navbar from '../Shared/Navbar/Navbar';
 const Main = () => {
   return (
     <div className='dark:bg-[#182828]  dark:text-white'>
-      <div className="max-w-screen-2xl  mx-auto">
-      <div>
+      
+      <div className='dark:bg-[#1f3434]'>
         <Navbar />
       </div>
-      <div className="max-w-screen-2xl  mx-auto  min-h-[calc(100vh-145px)]">
+      <div className="min-h-[calc(100vh-145px)]">
       <Outlet />
     </div>
-      </div>
     </div>
     
   );
