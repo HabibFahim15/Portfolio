@@ -19,11 +19,11 @@ const TopSection = () => {
         </Fade>
       </div>
 
-      <div className="md:h-40 overflow-hidden rounded-full md:p-10 p-4 md:border-[40px] border-[24px] border-[#2ACEB6] shadow-xl  lg:h-auto xl:w-[54%]">
-        <Fade direction="right">
+      <Fade direction="right" className="md:h-40 overflow-hidden rounded-full md:p-10 p-4 md:border-[40px] border-[24px] border-[#2ACEB6] shadow-xl  lg:h-auto xl:w-[54%]">
+        
         <img src="https://i.ibb.co.com/Qcpz9Rk/Untitled-design-1.png" loading="lazy" alt="Photo by Fakurian Design" className="h-full w-full rounded-full " />
-        </Fade>
-      </div>
+      
+      </Fade>
 
     </section>
   );

@@ -15,7 +15,19 @@ const Home = () => {
         <SecondSection />
       </div>
 
+      <div className='dark:bg-[#1f3434] dark:text-white'>
+        kfjdlasfd <br />
+        kfjdlasfd <br />
+        kfjdlasfd <br />
+        kfjdlasfd <br />
 
+        kfjdlasfd <br />
+        kfjdlasfd <br />
+        kfjdlasfd <br />
+        kfjdlasfd <br />
+
+        kfjdlasfd <br />
+      </div>
 
     </>
   );
