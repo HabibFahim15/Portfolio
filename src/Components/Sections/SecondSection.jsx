@@ -17,13 +17,15 @@ const SecondSection = () => {
 
           {/* Text Section */}
           <div className="flex flex-col items-center justify-center sm:items-start md:py-24 lg:py-32">
-            <p className="mb-4 text-sm font-semibold uppercase text-amber-300 md:text-base">Why Hire Me?</p>
-            <h1 className="mb-2 text-center text-3xl font-bold dark:text-gray-100 sm:text-left md:text-4xl">
-              Let’s Build Something Great
+            <p className="mb-4 text-sm font-semibold uppercase text-amber-400 md:text-base">Why I'm Your Ideal Choice</p>
+            <h1 className="mb-4 text-center text-3xl font-bold dark:text-gray-100 sm:text-left md:text-5xl">
+              Let's Transform Ideas into Reality
             </h1>
-            <p className="mb-8 text-center dark:text-gray-100 sm:text-left md:text-lg">
-              As a new front-end developer with fresh ideas, I am eager to bring my knowledge and skills to your next project, ensuring responsive, modern designs tailored to your needs.
+            <p className="mb-8 text-center dark:text-gray-300 sm:text-left md:text-lg">
+              As a passionate front-end developer, I bring fresh perspectives and modern solutions to every project,
+              ensuring responsive, cutting-edge designs tailored specifically to your vision.
             </p>
+
             <a href="https://www.linkedin.com/in/habib-hossain-fahim/" target='_blank' class="relative inline-flex items-center justify-start py-4 pl-4 pr-12 overflow-hidden font-semibold  transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-[#2ACEB6] text-white group">
               <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-amber-400 group-hover:h-full"></span>
               <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
