@@ -2,7 +2,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";
 const TopSection = () => {
   return (
-    <section className="flex flex-col-reverse justify-between gap-6 p-5 sm:gap-10 md:gap-16 lg:flex-row">
+    <section className="flex flex-col-reverse justify-between gap-6 p-5 md:pb-12  sm:gap-10 md:gap-16 lg:flex-row">
 
       <div className="flex flex-col  justify-center sm:text-center lg:py-12 lg:text-left xl:w-1/2 xl:py-24">
         <Fade direction="down">
@@ -14,7 +14,7 @@ const TopSection = () => {
           <p className="mb-8 leading-relaxed dark:text-gray-300 md:mb-10 lg:w-4/5 xl:text-lg">I'm a front-end developer passionate about creating responsive, user-friendly web applications. While new to the field, I've completed projects and am now seeking opportunities to grow and contribute in a professional environment.</p>
 
           <div>
-            <a href="#" className="inline-block rounded-lg bg-[#F65A8A] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Download CV</a>
+            <a href="#" className="inline-block rounded-lg bg-[#F65A8A] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#85203f] focus-visible:ring active:bg-indigo-700 md:text-base">Download CV</a>
           </div>
         </Fade>
       </div>
