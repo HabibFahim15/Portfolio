@@ -2,6 +2,7 @@ import React from 'react';
 import TopSection from '../Sections/TopSection';
 import SecondSection from '../Sections/SecondSection';
 import MyProjects from '../Sections/MyProjects/MyProjects';
+import Skill from '../Sections/SkillSection/Skill';
 
 const Home = () => {
   return (
@@ -24,6 +25,15 @@ const Home = () => {
         </div>
         
         </div>
+        {/* skills */}
+        <div className='dark:bg-[#182828] md:py-8 dark:text-white'>
+        <div className='max-w-screen-2xl  mx-auto '>
+        <h1 className="text-3xl font-extrabold text-center dark:text-white  sm:text-4xl mb-4 md:mb-6 md:text-6xl">My Skills</h1>
+            <Skill />
+        </div>
+        </div>
+          
+        
       
 
     </>

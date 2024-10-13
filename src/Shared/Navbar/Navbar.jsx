@@ -26,7 +26,7 @@ function Navbar() {
         </nav>
 
         {/* Contact Sales Button */}
-        <a href="" className="rounded-lg bg-[#FEC548] md:px-8 md:py-3 px-5 py-2 text-center text-lg font-bold text-slate-800  outline-none ring-[#FEC548] transition duration-100 hover:bg-[#FEC548] focus-visible:ring active:bg-amber-500 md:text-base">Hire Me</a>
+        <a href="https://www.linkedin.com/in/habib-hossain-fahim/" className="rounded-lg bg-[#FEC548] md:px-8 md:py-3 px-5 py-2 text-center text-lg font-bold text-slate-800  outline-none ring-[#FEC548] transition duration-100 hover:bg-[#FEC548] focus-visible:ring active:bg-amber-500 md:text-base">Hire Me</a>
 
       </header>
     </div>

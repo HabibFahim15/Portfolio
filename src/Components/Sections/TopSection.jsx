@@ -14,7 +14,7 @@ const TopSection = () => {
           <p className="mb-8 leading-relaxed dark:text-gray-300 md:mb-10 lg:w-4/5 xl:text-lg">I'm a front-end developer passionate about creating responsive, user-friendly web applications. While new to the field, I've completed projects and am now seeking opportunities to grow and contribute in a professional environment.</p>
 
           <div>
-            <a href="#" className="inline-block rounded-lg bg-[#F65A8A] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#85203f] focus-visible:ring active:bg-indigo-700 md:text-base">Download CV</a>
+            <a href="https://drive.google.com/file/d/1qu-lDnnMGhygerEXXljR-mbIL5qOkq8o/view?usp=sharing" className="inline-block rounded-lg bg-[#F65A8A] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#85203f] focus-visible:ring active:bg-indigo-700 md:text-base">Download CV</a>
           </div>
         </Fade>
       </div>
