@@ -19,7 +19,7 @@ function Navbar() {
 
         {/* Desktop Navigation */}
         <nav className="hidden gap-12 lg:flex">
-          <a href="#" className="text-lg font-semibold hover:text-amber-400 dark:hover:text-amber-300">Home</a>
+          <a href="/" className="text-lg font-semibold hover:text-amber-400 dark:hover:text-amber-300">Home</a>
           <a href="#" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">Features</a>
           <a href="#" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">Pricing</a>
           <a href="#" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">About</a>
