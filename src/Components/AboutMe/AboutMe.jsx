@@ -29,7 +29,7 @@ const AboutMe = () => {
                     repeat={Infinity}
                   /></h2>
                 <p className='text-xl mb-5 font-medium text-gray-500'>+880 1763153560</p>
-                <a href="mailto:habibfahim71gmail.com" className='border-none my-3 bg-black px-12 py-3'>Email me</a>
+                <a href="mailto:habibfahim71gmail.com" className='border-none my-3 bg-black text-white px-12 py-3'>Email me</a>
 
                 <p className="text-center mt-4 text-2xl font-semibold text-gray-800 ">Socials:</p>
 
