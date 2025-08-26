@@ -6,7 +6,7 @@ import { SiMongodb } from "react-icons/si";
 import { Link } from "react-router-dom";
 const MyProjects = () => {
   return (
-    <section className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <section id="project" className="mx-auto max-w-screen-2xl px-4 md:px-8">
       {/* first project start */}
       <div className="mb-12 flex flex-wrap justify-around md:mb-20">
         <div className="mb-6 flex w-full  flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const SecondSection = () => {
   return (
-    <div className="max-h-screen py-6 sm:py-8 lg:py-12">
+    <div id="why" className="max-h-screen py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="grid gap-20 sm:grid-cols-2 items-center">
           {/* Image Section */}

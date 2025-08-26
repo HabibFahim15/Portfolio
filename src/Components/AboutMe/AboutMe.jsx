@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 const AboutMe = () => {
   return (
-    <section>
+    <section id="about">
       <div class=" py-6 sm:py-8 lg:py-12">
         <div class="mx-auto max-w-screen-xl px-4 md:px-8">
           <div class="grid gap-8 md:grid-cols-2 lg:gap-12">

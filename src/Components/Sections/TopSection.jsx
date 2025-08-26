@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import { FaFacebook } from "react-icons/fa";
 const TopSection = () => {
   return (
-    <section className="flex flex-col-reverse justify-between gap-6 p-5 md:pb-12  sm:gap-10 md:gap-16 lg:flex-row">
+    <section id="home" className="flex md:pt-32 flex-col-reverse justify-between gap-6 p-5 md:pb-12  sm:gap-10 md:gap-16 lg:flex-row">
 
       <div className="flex flex-col  justify-center sm:text-center lg:py-12 lg:text-left xl:w-1/2 xl:py-24">
         <Fade direction="down">

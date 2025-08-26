@@ -3,8 +3,8 @@
 function Navbar() {
 
   return (
-    <div className="mx-auto max-w-screen-2xl ">
-      <header className=" flex items-center justify-between py-4  md:py-2">
+    <div className="mx-auto max-w-screen-2xl fixed top-0 left-0 right-0 z-50">
+      <header className=" flex items-center bg-[#1F3434] px-4 justify-between py-4  md:py-2">
 
         {/* Logo */}
         <a href="/" className="inline-flex items-center  text-xl font-bold dark:text-white md:text-2xl" aria-label="logo">
@@ -19,10 +19,10 @@ function Navbar() {
 
         {/* Desktop Navigation */}
         <nav className="hidden gap-12 lg:flex">
-          <a href="/" className="text-lg font-semibold hover:text-amber-400 dark:hover:text-amber-300">Home</a>
-          <a href="#" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">Features</a>
-          <a href="#" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">Pricing</a>
-          <a href="#" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">About</a>
+          <a href="#top" className="text-lg font-semibold hover:text-amber-400 dark:hover:text-amber-300">Home</a>
+          <a href="#why" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">Ideal choice</a>
+          <a href="#project" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">Projects</a>
+          <a href="#about" className="text-lg font-semibold dark:text-white transition duration-100 hover:text-amber-400 dark:hover:text-amber-300">About me</a>
         </nav>
 
         {/* Contact Sales Button */}
