@@ -15,7 +15,7 @@ const TopSection = () => {
           <p className="mb-8 leading-relaxed dark:text-gray-300 md:mb-10 lg:w-4/5 xl:text-lg">I'm a front-end developer passionate about creating responsive, user-friendly web applications. While new to the field, I've completed projects and am now seeking opportunities to grow and contribute in a professional environment.</p>
 
           <div>
-            <a href="https://drive.google.com/file/d/1qu-lDnnMGhygerEXXljR-mbIL5qOkq8o/view?usp=sharing" className="inline-block rounded-lg bg-[#F65A8A] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#85203f] focus-visible:ring active:bg-indigo-700 md:text-base">Download CV</a>
+            <a  href="../../../assets/Jr Frontend Dev.pdf" className="inline-block rounded-lg bg-[#F65A8A] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#85203f] focus-visible:ring active:bg-indigo-700 md:text-base" download>Download CV</a>
           </div>
         </Fade>
         <div className="flex justify-start items-center gap-4 mt-4">
@@ -37,9 +37,9 @@ const TopSection = () => {
         </div>
       </div>
 
-      <Fade direction="right" className="md:h-40 overflow-hidden rounded-full md:p-10 p-4 md:border-[40px] border-[24px] border-[#2ACEB6] shadow-xl  lg:h-auto xl:w-[54%]">
+      <Fade direction="right" className=" overflow-hidden rounded-[50%] md:p-10 p-4 md:border-[40px] border-[24px] border-[#2ACEB6] shadow-xl  md:h-[50%] xl:w-[54%]">
         
-        <img src="https://i.ibb.co.com/Qcpz9Rk/Untitled-design-1.png" loading="lazy" alt="Photo by Fakurian Design" className="h-full w-full rounded-full " />
+        <img src="https://i.ibb.co.com/Qcpz9Rk/Untitled-design-1.png" loading="lazy" alt="Photo by Fakurian Design" className="h-full w-full rounded-[50%] " />
       
       </Fade>
 

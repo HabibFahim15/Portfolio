@@ -4,7 +4,7 @@ const SecondSection = () => {
   return (
     <div className="max-h-screen py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="grid gap-16 sm:grid-cols-2 items-center">
+        <div className="grid gap-20 sm:grid-cols-2 items-center">
           {/* Image Section */}
           <div className="relative overflow-hidden rounded-lg shadow-2xl sm:h-[550px] lg:h-[650px]">
             <img
